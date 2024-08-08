@@ -56,9 +56,6 @@
                 <h2>Introduction</h2>
                 <p>Introduction of the activity. Good Morning Everyone!</p>
             </div>
-            <!--div class="intro-image">
-                <img src="./images/intro-image.jpg" alt="Introduction Image">
-            </div-->
         </div>
     </section>
 
@@ -148,25 +145,25 @@
             document.documentElement.style.setProperty('--color-light-slate', color5);
         });
         function confirmColors() {
-    const colorInputs = document.querySelectorAll('input[type="color"]');
-    const colorsFinal = document.getElementById('colorsFinal');
+            const colorInputs = document.querySelectorAll('input[type="color"]');
+            const colorsFinal = document.getElementById('colorsFinal');
 
-    // 隱藏其他內容
-    document.getElementById('nav').style.display = 'none';
-    document.getElementById('confirm').style.display = 'none';
-    document.getElementById('main').style.display = 'none';
-    document.getElementById('footer').style.display = 'none';
-    document.body.style.backgroundColor = 'white';
-    document.body.style.color = 'black';
+            // 隱藏其他內容
+            document.getElementById('nav').style.display = 'none';
+            document.getElementById('confirm').style.display = 'none';
+            document.getElementById('main').style.display = 'none';
+            document.getElementById('footer').style.display = 'none';
+            document.body.style.backgroundColor = 'white';
+            document.body.style.color = 'black';
 
-    // 更新並顯示顏色列表
-    colorInputs.forEach((input, index) => {
-        const colorFinal = document.getElementById(`color${index + 1}Final`);
-        colorFinal.textContent = `color${index + 1}: ${input.value}`;
-    });
+            // 更新並顯示顏色列表
+            colorInputs.forEach((input, index) => {
+                const colorFinal = document.getElementById(`color${index + 1}Final`);
+                colorFinal.textContent = `color${index + 1}: ${input.value}`;
+            });
 
-    colorsFinal.style.display = 'block';
-    }
+            colorsFinal.style.display = 'block';
+        }
     </script>
 <script src="script.js"></script>
 </body>
