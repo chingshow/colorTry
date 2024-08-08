@@ -1,0 +1,44 @@
+/* 定義網頁的基本字體及背景色 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* 標題部分的樣式 */
+.title {
+    background-color: #038b79;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* 容器樣式 */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* 模板連結樣式 */
+.container a {
+    display: block;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #65bbb4;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.container a:hover {
+    background-color: #4dbb88;
+}

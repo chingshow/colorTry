@@ -7,7 +7,7 @@
 }
 
 #reset{
-    padding:2vw 1vw;
+    padding:1vw 2vw;
     margin: auto;
     background-color: #b4c7c7;
     text-decoration: none;
@@ -18,6 +18,10 @@
             height: 100px;
             margin: 10px;
             display: inline-block;
+}
+#colorForm{
+    align-content: center;
+    justify-content: center;
 }
 #colorsFinal {
   list-style-type: none;
