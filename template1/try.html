@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>顏色變更器</title>
+    <link rel="stylesheet" href="styleTry.css">
+</head>
+<body>
+<div class="preview">
+    <header>
+        <form id="colorForm">
+        <input type="color" id="color1" name="color1">
+        <input type="color" id="color2" name="color2">
+        <input type="color" id="color3" name="color3">
+        <input type="color" id="color4" name="color4">
+        <input type="color" id="color5" name="color5">
+        <button type="submit">更新顏色</button>
+        </form>
+    <nav>
+        <div class="logo">Activity Title</div>
+        <ul>
+            <!-- Navigation items will be dynamically added here -->
+        </ul>
+        <div class="language-select">
+            <a href="#" class="active">English</a>
+            <a href="#">中文</a>
+        </div>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+</header>
+
+<main>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Activity Title</h1>
+            <p class="date">1095</p>
+            <a href="#register" class="cta-button">Register Now</a>
+        </div>
+    </section>
+
+    <section id="intro">
+        <div class="container">
+            <div class="intro-text">
+                <h2>Introduction</h2>
+                <p>Introduction of the activity. Good Morning Everyone!</p>
+            </div>
+            <!--div class="intro-image">
+                <img src="./images/intro-image.jpg" alt="Introduction Image">
+            </div-->
+        </div>
+    </section>
+
+    <section id="speakers">
+        <div class="container">
+            <h2>Speakers</h2>
+            <div class="speaker-grid">
+                <!-- Speaker cards will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="agenda">
+        <div class="container">
+            <h2>Agenda</h2>
+            <!--div class="timeline">
+                < Timeline items will be dynamically added here >
+            </div-->
+            <img src="images_old/Agenda.png" alt="Agenda" class="agenda-image">
+        </div>
+    </section>
+
+    <section id="documents">
+        <div class="container">
+            <h2>Documents</h2>
+            <div class="documents-content">
+                <!-- dynamically added -->
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container">
+            <h2>FAQ</h2>
+            <div class="faq-content">
+                <!-- FAQ items will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="register">
+        <div class="container">
+            <h2>Registration</h2>
+            <div class="register-options">
+                <!-- Registration options will be dynamically added here -->
+            </div>
+            <div id="countdown"></div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="organizers">
+            <h3>Organizer</h3>
+            <img src="images_old/organizer.png" alt="Organizer">
+        </div>
+        <div class="co-organizers">
+            <h3>Co-organizer</h3>
+            <img src="images_old/co-org.png" alt="Co-organizer">
+        </div>
+        <div class="sponsors">
+            <h3>Sponsor</h3>
+            <img src="images_old/sponsor.png" alt="Sponsor">
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Phone: +886-2-27322701</p>
+            <p>Address: 3F.-2, No. 56, Lane 258, Ruiguang Rd, Neihu District, Taipei City</p>
+        </div>
+    </div>
+</footer>
+</div>
+    <script>
+        document.getElementById('colorForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const color1 = document.getElementById('color1').value;
+            const color2 = document.getElementById('color2').value;
+            const color3 = document.getElementById('color3').value;
+            const color4 = document.getElementById('color4').value;
+            const color5 = document.getElementById('color5').value;
+
+            document.documentElement.style.setProperty('--color-primary', color1);
+            document.documentElement.style.setProperty('--color-secondary', color2);
+            document.documentElement.style.setProperty('--color-background', color3);
+            document.documentElement.style.setProperty('--color-text', color4);
+            document.documentElement.style.setProperty('--color-light-slate', color5);
+        });
+    </script>
+<script src="script.js"></script>
+</body>
+
+</html>

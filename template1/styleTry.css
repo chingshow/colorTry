@@ -1,0 +1,479 @@
+:root {
+  --color-primary: #3498db;     /* 主要顏色，原藍色 */
+  --color-secondary: #2c3e50;   /* 次要顏色，原深灰藍色 */
+  --color-background: #f4f7f6;  /* 背景顏色，原淺綠色 */
+  --color-text: #333333;        /* 文字顏色，原深灰色 */
+
+  /* 保留文檔相關的顏色 */
+  --color-light-slate: #6ab8bc;
+  --color-black: #000000;
+}
+
+.color-box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+* {
+    scrollbar-color: var(--color-background) var(--color-primary);
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--color-primary);
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-secondary);
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-background);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--color-primary);
+}
+
+.menu-toggle {
+    display: none;
+    color: var(--color-background);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-background);
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--color-secondary);
+}
+
+/* Sections */
+section {
+    padding: 6rem 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: var(--color-secondary);
+}
+
+/* Introduction Section */
+#intro {
+    background-color: var(--color-background);
+}
+
+#intro .container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+#intro img {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Speakers Section */
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.speaker-card {
+    background-color: var(--color-background);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.speaker-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.speaker-card h3 {
+    padding: 1.5rem 1.5rem 0.5rem;
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+}
+
+.speaker-card .title {
+    padding: 0 1.5rem;
+    font-style: italic;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+
+.speaker-card .description {
+    padding: 0 1.5rem 1.5rem;
+    color: var(--color-text);
+}
+
+.speaker-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Agenda Section */
+#agenda {
+    background-color: var(--color-background);
+}
+
+.timeline {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: var(--color-primary);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.timeline-item {
+    padding: 20px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: var(--color-background);
+    border: 4px solid var(--color-primary);
+    top: 22px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -10px;
+}
+
+.timeline-content {
+    padding: 20px;
+    background-color: var(--color-background);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.agenda-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Documents Section */
+.documents {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.documents-content{
+    max-height: 800px;
+}
+
+.documents-item {
+    margin-bottom: 2rem;
+    border-top: 2px solid var(--color-light-slate);
+    border-bottom: 2px solid var(--color-light-slate);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: var(--color-background);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.documents-content a {
+    text-decoration: none;
+}
+
+.documents-content a:hover{
+    text-decoration: none;
+}
+
+.documents-content a:hover .documents-item h3{
+    margin-left: 30vw;
+    color: var(--color-light-slate);
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.documents-content a:hover .documents-item p{
+    text-align: right;
+    font-size: 1rem;
+    padding-right: 30vw;
+    text-decoration: none;
+    color: var(--color-light-slate);
+}
+
+.documents-item h3 {
+    margin-left: 30vw;
+    color: var(--color-black);
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.documents-item p {
+    color: var(--color-black);
+    text-align: right;
+    font-size: 1rem;
+    padding-right: 30vw;
+    text-decoration: none;
+}
+
+/* FAQ Section */
+#faq {
+    background-color: var(--color-background);
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: 2rem;
+}
+
+.faq-item h3 {
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
+
+/* Registration Section */
+#register {
+    background-color: var(--color-background);
+}
+
+.register-options {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.register-button {
+    background-color: var(--color-background);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.register-button:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.register-button img {
+    max-width: 200px;
+    height: auto;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: var(--color-secondary);
+}
+
+p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-secondary);
+    color: var(--color-background);
+    padding: 4rem 0;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+footer h3 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+footer img {
+    height: 4vw;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav ul.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--color-secondary);
+    }
+
+    nav ul.show li {
+        margin: 0;
+        padding: 1rem;
+        border-top: 1px solid var(--color-primary);
+    }
+
+    #intro .container {
+        flex-direction: column;
+    }
+
+    #intro img {
+        width: 100%;
+    }
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline-item::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    footer img {
+    height: 12vw;
+    width: 100%;
+    margin-top: 1rem;
+    }
+}
