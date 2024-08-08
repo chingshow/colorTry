@@ -1,5 +1,5 @@
 {
-    "siteTitle": "Avater Medicine 2023",
+    "siteTitle": "Avatar Medicine Forum 2022",
     "navigation": [
         {
             "label": "Introduction",
@@ -39,94 +39,105 @@
         }
     ],
     "hero": {
-        "title": "Avater Medicine 2023",
-        "date": "2023/10/21",
+        "title": "Avatar Medicine Forum 2022",
+        "date": "2024/08/05",
         "ctaButton": {
             "text": "Register Now",
             "link": "#register"
         },
-        "backgroundImage": "./images/2023webbk.png"
+        "backgroundImage": "./images/web_01_en.png"
     },
     "introduction": {
-        "title": "Introduction",
-        "content": "​The Avatar Medicine Forum promotes the concept of virtual and physical avatars for patient therapy. Let everyone understand that avatar medicine may reduce the risks that patients need to bear during the treatment process, and it can overcome the limitations of distance and time. The advanced technologies include organoids, model organisms, big data, metaverse, etc. The general public can understand from a new perspective that these technologies have the potential to replace patients themselves and reduce medical risks. At the same time, the forum connects academic and industrial circles, so that potential technologies and products can be demonstrated.\r\n\r\n\u0014\r\n\r\nThis forum invites heavyweight speakers from industry, government, academia, and research circles to share with us the changes and evolution of avatar medicine brought by the post-epidemic era. It is hoped that in the near future, through big data, AI, AR/VR/XR or NFT, virtual avatars can be realized in clinical and teaching.",
+        "title": "Digital Twin & Metaverse",
+        "content": "The Avatar Medicine Forum promotes the concept of virtual and physical avatars for patient therapy. Let everyone understand that avatar medicine may reduce the risks that patients need to bear during the treatment process, and it can overcome the limitations of distance and time. The advanced technologies include organoids, model organisms, big data, metaverse, etc. The general public can understand from a new perspective that these technologies have the potential to replace patients themselves and reduce medical risks. At the same time, the forum connects academic and industrial circles, so that potential technologies and products can be demonstrated.\r\n\r\nThis forum invites heavyweight speakers from industry, government, academia, and research circles to share with us the changes and evolution of avatar medicine brought by the post-epidemic era. It is hoped that in the near future, through big data, AI, AR/VR/XR or NFT, virtual avatars can be realized in clinical and teaching.",
         "image": "./images/intro-image.jpg"
     },
     "speakers": {
         "title": "Speakers",
         "list": [
             {
-                "name": "James S. Miser",
-                "photo": "./images/VIP_Miser.png",
-                "title": "Former Director, City of Hope National Medical Center, USA",
-                "description": "Dr. Miser is an international expert in pediatric hematology/oncology, dedicated to innovative cancer treatments. He currently teaches at Taipei Medical University and he once led the City of Hope National Medical Center. In cancer research, he plays a pivotal role in various key committees, including the pediatric cancer research group and the Wilms tumor monitoring committee."
+                "name": "Michael C. Lu",
+                "photo": "./images/HG1.jpg",
+                "title": "Dean",
+                "description": "UC Berkeley School of Public Health"
             },
             {
-                "name": "Luke Dimasi",
-                "photo": "./images/VIP_Luke.png",
-                "title": "Senior Product Management Director,Emulate Inc.",
-                "description": "Luke Dimasi is a marketing and product management expert in the life sciences and biotechnology sector, with over 15 years of experience. He currently serves as the Senior Director of Product Management at Emulate, Inc. Deeply attuned to customer needs, he transforms them into successful strategies, leading teams to launch innovative products that elevate scientific research. With a background in cellular and molecular biology, Dimasi's expertise spans drug discovery, genomics, and areas like stem cell therapy."
+                "name": "Ching-cheng Chuang",
+                "photo": "./images/HG2.jpg",
+                "title": "Legislator",
+                "description": "Legislative Yuan, Republic of China (Taiwan)"
             },
             {
-                "name": "Tony Chung",
-                "photo": "./images/GCG.jpg",
-                "title": "CEO ,Instant NanoBiosensors Co., Ltd.",
-                "description": "Tony Chung is the CEO of Instant NanoBiosensors Co., Ltd., with extensive experience in the field of biotechnology. He entered the industry in 2002 and held key positions in several renowned companies, including Genetech biotech Co., Ltd in Taiwan, which represents Illumina. He is also a co-founder of Instant NanoBiosensors Co., Ltd. In 2020, he became a strategic partner of Merck KGaA. Mr. Tony Chung, with his outstanding leadership style and unwavering spirit of innovation, propels Instant NanoBiosensors Co., Ltd. forward, dedicating himself to the enhancement of the biotechnology industry."
+                "name": "Jacqueline Whang-Peng",
+                "photo": "./images/HG3.jpg",
+                "title": "Academician",
+                "description": "Academia Sinica, R.O.C."
+            },
+            {
+                "name": "Ting-I Chan",
+                "photo": "./images/HG4.jpg",
+                "title": "Vice President",
+                "description": "Digital Transformation Association (DTA)"
+            },
+            {
+                "name": "Mi-Hua Tao",
+                "photo": "./images/HP1.jpg",
+                "title": "CEO",
+                "description": "Translational Medicine Division, Biomedical Translation Research Center (BioTReC), Academia Sinica, R.O.C."
+            },
+            {
+                "name": "Shawn Chae",
+                "photo": "./images/HP2.jpg",
+                "title": "CMO",
+                "description": "CLECELL Co., Ltd."
             },
             {
                 "name": "Long-Sheng Lu",
-                "photo": "./images/LLS.jpg",
-                "title": "Attending physician,Taipei Medical University Hospital",
-                "description": "Dr. Long-Sheng Lu is an Associate Professor at Taipei Medical University, concurrently holding positions in the Institute of Biomedical Materials and Tissue Engineering, Biomedical Engineering, and Regenerative Medicine Program. He is also an attending physician at Taipei Medical University Hospital and serves as the Director of the Cell Therapy Center."
+                "photo": "./images/HP3.jpg",
+                "title": "Director",
+                "description": "Center for Cell Therapy , Taipei Medical University Hospital, Taiwan"
             },
             {
-                "name": "Jack Lee",
-                "photo": "./images/LEL.jpg",
-                "title": "Senior Genetic Technology Expert,NGS Technical Instructor",
-                "description": "Jack with 17+ years in Taiwan's biotech sector, Jack is a top genetic technology expert. He pioneered gene chips, NGS for clinics, and led vital projects like automated rare disease gene screening. His work linking genetics and medicine propels Taiwan's genetic medicine advancement."
+                "name": "Ching-Yung Lin",
+                "photo": "./images/HA1.jpg",
+                "title": "CEO",
+                "description": "Graphen Taiwan Inc."
             },
             {
-                "name": "I-Hsuan Liu",
-                "photo": "./images/LES.jpg",
-                "title": "Professor,National Taiwan University",
-                "description": "Professor Yi-Hsuan Liu, based at National Taiwan University, focuses on animal development, regeneration, and stem cell research. By employing gene editing and genetic techniques, his work aims to decipher organogenesis mechanisms and develop strategies for effective tissue regeneration."
+                "name": "Ray Lin",
+                "photo": "./images/HA2.jpg",
+                "title": "CEO",
+                "description": "ARK GROUP Co. Ltd."
             },
             {
-                "name": "Rock Wu",
-                "photo": "./images/WGL.jpg",
-                "title": "COO,Uniigym Co.,Ltd.",
-                "description": "previously served as Exec. Director of Taiwan Sports and Fitness Industry Association's Innovation Committee and COO of Asia Sports Energy Group. Leading Uniigym, he innovates sports tech and fitness content, using gamification to lower barriers and promote a health-conscious lifestyle through interactive sensor fitness apps."
-            },
-            {
-                "name": "Yen-Lin Liu",
-                "photo": "./images/LER.jpg",
-                "title": "Attending physician, Taipei Medical University Hospital",
-                "description": "Dr. Liu is the Chief of Pediatric Oncology at Taipei Medical University Hospital and an Assistant Professor at Taipei Medical University. Specializing in neuroblastoma, pediatric oncology, and pediatric hematology, he has extensive experience in hematopoietic stem cell transplantation. He holds a medical degree from National Cheng Kung University and a Translational Medicine doctoral degree from National Taiwan University."
-            },
-            {
-                "name": "Jeng-Fong Chiou",
-                "photo": "./images/CGF.png",
-                "title": "President,Taiwan Society for Therapeutic Radiation and Oncology",
-                "description": "Dr. Chiu Chung-Feng is an esteemed expert in oncology and medical education. With a Ph.D. from the National Defense Medical Center, he's a distinguished professor at Taipei Medical University, focusing on radiation therapy, cancer research, and innovative treatments. His leadership spans hospital presidency and program directorship. Recognized with awards, including Outstanding Research Project and Excellent Teacher, Dr. Chiu's commitment to advancing cancer care, immunotherapy, and molecular biology makes him a pivotal figure in oncology."
+                "name": "Jac Hsieh",
+                "photo": "./images/HA3.jpg",
+                "title": "CEO",
+                "description": "FITION INC."
             }
         ]
     },
     "agenda": {
         "title": "Agenda",
-        "image": "./images/Agenda.png"
+        "image": "./images/agendaEN.png"
     },
     "documents": {
         "title": "Documents",
         "items": [
             {
-                "titles": "PARAPLATIN FOR INJECTION介紹",
-                "author": "Cancer Knowledge",
-                "no": "00002"
+                "titles": "Celebrex Capsule 400mg介紹",
+                "author": "Cancer Kwonledge",
+                "no": "00005"
             },
             {
-                "titles": "Taxohope-N 20mg/ml濃縮注射液介紹",
-                "author": "癌症知識站",
-                "no": "00001"
+                "titles": "Giotrif Film-Coated Tablets 20 mg介紹",
+                "author": "Cancer Knowledge",
+                "no": "00004"
+            },
+            {
+                "titles": "UFUR CAPSULE介紹",
+                "author": "Cancer Knowledge",
+                "no": "00003"
             }
         ]
     },
@@ -138,16 +149,20 @@
                 "answer": "Avatar Medicine is to build virtual or physical twins for patients, and it decreases the risk which patients have to take during their treatments. Also, it breaks the limit of distance and time."
             },
             {
-                "question": "What is physical avatar?",
+                "question": "What is physical twin?",
                 "answer": "Physical twins usually comes from human biopsy, or they can be a model that are similar to human. They can simulate certain syndromes of human diseases. Through observing their reactions to environmental stimuli, we can do research, diagnoses and offer help in treatment."
             },
             {
-                "question": "What is virtual avatar?",
+                "question": "What is virtual twin?",
                 "answer": "Virtual twins build images and models by analyzing and digitalizing data from human. By operating a predictive program, virtual twins can provide clinical consultation, diagnoses and assistance in treatment."
             },
             {
+                "question": "What is Metaverse?",
+                "answer": "Metaverse is a world made of AI, VR, 5G, big data, digital assets and virtual identity. You can work, have fun, shop and play games in it."
+            },
+            {
                 "question": "What is the fee for Avatar Medicine Forum?",
-                "answer": "0. Our Forum is free of charge. It only takes you 2 hours."
+                "answer": "ZERO. Our Forum is free of charge. It only takes you 2 hours."
             },
             {
                 "question": "How to register?",
@@ -159,28 +174,28 @@
         "title": "Registration",
         "options": [
             {
-                "link": "https://www.accupass.com/go/Avatar2023",
+                "link": "https://www.accupass.com/event/2210140955411658495450",
                 "image": "./images/signUpWebsite1.png"
             },
             {
-                "link": "https://www.eventbrite.com/e/avatar-medicine-forum-2023-tickets-697936054527?aff=oddtdtcreator",
+                "link": "https://www.eventbrite.com/e/avatar-medicine-forum-tickets-440741859767",
                 "image": "./images/signUpWebsite2.png"
             }
         ],
-        "eventDate": "2023/10/21 00:00:00"
+        "eventDate": "2024/08/05 00:00:00"
     },
     "footer": {
         "organizer": {
             "title": "Organizer",
-            "image": "./images/organizer.png"
+            "image": "./images/CFBiocn2.png"
         },
         "coOrganizer": {
             "title": "Co-organizer",
-            "image": "./images/gendaini.png"
+            "image": "./images/2022co.png"
         },
         "sponsor": {
             "title": "Sponsor",
-            "image": "./images/sponsor.png"
+            "image": "./images/2022spo.png"
         },
         "contact": {
             "title": "Contact Us",
