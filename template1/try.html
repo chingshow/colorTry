@@ -15,9 +15,10 @@
         <input type="color" id="color3" name="color3">
         <input type="color" id="color4" name="color4">
         <input type="color" id="color5" name="color5">
-        <button type="submit">更新顏色</button>
+        <button type="submit" id="confirm">更新顏色</button>
         </form>
-    <nav>
+        <button onclick="confirmColors()">確認顏色</button>
+    <nav id="nav">
         <div class="logo">Activity Title</div>
         <ul>
             <!-- Navigation items will be dynamically added here -->
@@ -29,8 +30,18 @@
         <div class="menu-toggle">&#9776;</div>
     </nav>
 </header>
-
-<main>
+<div id="colorsFinal" style="display: none">
+    <ul>
+  <li id="color1Final">color1: </li>
+  <li id="color2Final">color2: </li>
+  <li id="color3Final">color3: </li>
+  <li id="color4Final">color4: </li>
+  <li id="color5Final">color5: </li>
+        <p>請將此色碼依順序填入ragic表單欄位</p>
+</ul>
+    <a href="try.html" id="reset">reset</a>
+</div>
+<main id="main">
     <section id="hero">
         <div class="hero-content">
             <h1>Activity Title</h1>
@@ -99,7 +110,7 @@
     </section>
 </main>
 
-<footer>
+<footer id="footer">
     <div class="container">
         <div class="organizers">
             <h3>Organizer</h3>
@@ -136,6 +147,26 @@
             document.documentElement.style.setProperty('--color-text', color4);
             document.documentElement.style.setProperty('--color-light-slate', color5);
         });
+        function confirmColors() {
+    const colorInputs = document.querySelectorAll('input[type="color"]');
+    const colorsFinal = document.getElementById('colorsFinal');
+
+    // 隱藏其他內容
+    document.getElementById('nav').style.display = 'none';
+    document.getElementById('confirm').style.display = 'none';
+    document.getElementById('main').style.display = 'none';
+    document.getElementById('footer').style.display = 'none';
+    document.body.style.backgroundColor = 'white';
+    document.body.style.color = 'black';
+
+    // 更新並顯示顏色列表
+    colorInputs.forEach((input, index) => {
+        const colorFinal = document.getElementById(`color${index + 1}Final`);
+        colorFinal.textContent = `color${index + 1}: ${input.value}`;
+    });
+
+    colorsFinal.style.display = 'block';
+    }
     </script>
 <script src="script.js"></script>
 </body>

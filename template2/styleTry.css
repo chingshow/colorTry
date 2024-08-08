@@ -6,12 +6,47 @@
   --color-dark-gray-transparent: #615355E5;
 }
 
+#reset{
+    padding:2vw 1vw;
+    margin: auto;
+    background-color: #b4c7c7;
+    text-decoration: none;
+}
+
 .color-box {
             width: 100px;
             height: 100px;
             margin: 10px;
             display: inline-block;
-        }
+}
+#colorsFinal {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10rem;
+    text-align: center;
+}
+
+#colorsFinal ul{
+    align-items: flex-start;
+    margin-bottom: 2vw;
+}
+
+#colorsFinal li {
+  margin-bottom: 5px;
+}
+
+#confirmColors {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#confirmColors:hover {
+  background-color: #45a049;
+}
 
 * {
     margin: 0;
